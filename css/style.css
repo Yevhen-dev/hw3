@@ -1,0 +1,98 @@
+body {
+    min-width: 900px;
+    font-family: sans-serif
+}
+.header {
+    font-size: 2rem;
+    text-align: center;
+}
+.header__slogan_left {
+    color:#3E45E8;
+}
+.header__slogan_right {
+    color: #E8C23E;
+}
+.header__poem {
+    padding: 75px 0 75px 100px;
+    color: #ffffff;
+    text-align: left;
+    background: url( "../images/bg_flag.png" ) 70px 100px/25px 60% no-repeat,
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.2)) center/cover no-repeat,
+     url( "../images/bg_tampel.png" ) center/cover no-repeat;
+    
+}
+.main__title>h2 {
+    padding-left: 50px;
+}
+.main__title>div {
+    width: 40%;
+    height: 5px;
+    background: linear-gradient(90deg, rgba(1,222,255,1) 0%, rgba(21,2,255,1) 50%, rgba(255,169,2,1) 50%, rgba(255,255,255,1) 100%);
+}
+.main__card>ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.main__card_item {
+    border: 5px solid #120e62;
+    border-radius: 36px;
+}
+.main__card_item>h3 {
+    color: #0072db;
+    padding-left: 15px
+}
+.main__card_item>p {
+    color: #ef8f00;
+    padding-left: 15px
+}
+.tustan{
+    box-shadow: -2px 5px 15px #00D1FF;
+}
+.castle {
+    box-shadow: 0 5px 10px #00D1FF;;
+}
+.kamyana{
+    box-shadow: 2px 5px 15px #00D1FF;
+}
+.main__map {
+    text-align: center;
+}
+.main__map>h2>span {
+    padding: 0 5px;
+    border-bottom: 7px solid #1400ff;
+}
+.main__map>a {
+    color:#ffffff;
+    font-size: 1.5rem;
+    padding: 10px 75px;
+    text-decoration: none;
+    background-color:#2a61f0;
+    border-radius: 30px;
+}
+.footer {
+    text-align: center;
+    background: linear-gradient(0deg, rgba(14,7,97,1) 0%, rgba(1,50,53,1) 100%);
+}
+.footer>ul {
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+.footer>ul>li>a {
+    text-decoration: none;
+    color: #a89d9d;
+}
+.footer__slogan-left {
+    color: #335bee;
+}
+.footer__slogan-right {
+    color: #dfe31e;
+}
+.footer__email, .footer__tel, .footer__social-media {
+    padding: 10px;
+}
+.footer__social-media>a {
+    margin: 0 5px;
+}
